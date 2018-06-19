@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1060245183265",
+    "firebase_url": "https://furafila-88ffe.firebaseio.com",
+    "project_id": "furafila-88ffe",
+    "storage_bucket": "furafila-88ffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060245183265:android:010d382b5828c016",
+        "android_client_info": {
+          "package_name": "com.furafila.felipearaujo.projetofurafila"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060245183265-gml1l67ejv1k0saf2gaou866av707kn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.furafila.felipearaujo.projetofurafila",
+            "certificate_hash": "4cf8eba677128f425f7c61643f648505772b1836"
+          }
+        },
+        {
+          "client_id": "1060245183265-nhpireapbve2jhmfvso59fuolofavc1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABQqYRj0vZg1VGdMxI-fj7JmHO9wFvNHM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060245183265-nhpireapbve2jhmfvso59fuolofavc1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

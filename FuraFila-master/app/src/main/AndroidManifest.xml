@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.furafila.felipearaujo.projetofurafila">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="Fura Fila"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AtividadesLogin.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AtividadesLogin.MainActivity" />
+        <activity android:name=".AtividadesLogin.SignupActivity" />
+        <activity android:name=".AtividadesLogin.ResetPasswordActivity" />
+        <activity android:name=".Agendamento.ActivityAgendamento" />
+        <activity android:name=".Agendamento.Consulta_Activity" />
+        <activity android:name=".Adicionais.DadosCadastrais_Activity"></activity>
+    </application>
+
+</manifest>

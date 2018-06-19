@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".Agendamento.ActivityAgendamento"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <Spinner
+        android:id="@+id/id_horarios"
+        android:layout_width="143dp"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="83dp"
+        android:layout_toEndOf="@+id/textView"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <Button
+        android:id="@+id/btn_agendar"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:background="@color/red"
+        android:text="Agendar"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="135dp"
+        android:layout_height="23dp"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="91dp"
+        android:text="Escolha um Horario :"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="111dp"
+        android:layout_height="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="151dp"
+        android:layout_marginStart="63dp"
+        android:text="Data Escolhida :"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <EditText
+        android:id="@+id/txt_Data"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:editable="false"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+
+    <EditText
+        android:id="@+id/txt_exibirCpf"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txt_exibirnome"
+        android:layout_marginTop="125dp"
+        android:editable="false"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <EditText
+        android:id="@+id/txt_exibirEmail"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txt_exibirCpf"
+        android:layout_marginTop="68dp"
+        android:editable="false"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <EditText
+        android:id="@+id/txt_celular"
+        android:layout_width="131dp"
+        android:layout_height="42dp"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toEndOf="@+id/textView2"
+        android:ems="10"
+        android:hint="Obrigatorio"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="129dp"
+        android:layout_height="29dp"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="213dp"
+        android:text="Digite seu Telefone :"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="92dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="182dp"
+        android:layout_toEndOf="@+id/textView2"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="172dp">
+
+
+        <RadioButton
+            android:id="@+id/c_hoje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Hoje" />
+
+        <RadioButton
+            android:id="@+id/c_amanha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Amanha" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="41dp"
+        android:layout_height="28dp"
+        android:layout_alignBottom="@+id/txt_exibirCpf"
+        android:layout_toStartOf="@+id/txt_exibirCpf"
+        android:text="CPF"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txt_exibirEmail"
+        android:layout_toStartOf="@+id/txt_exibirCpf"
+        android:text="E-mail"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/txt_exibirnome"
+        android:layout_toStartOf="@+id/txt_exibirCpf"
+        android:text="Nome :"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="199dp"
+        android:text="Quando gostaria de fazer o agendanto ?"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="184dp" />
+
+    <EditText
+        android:id="@+id/txt_exibirnome"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="42dp"
+        android:layout_marginTop="13dp"
+        android:editable="false"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</RelativeLayout>
